@@ -1,0 +1,22 @@
+{
+  "name": "8mb",
+  "version": "1.0.0",
+  "description": "Node.js script that leverages ffmpeg to compress videos to be less than or equal to 8MB",
+  "main": "8mb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XTP3/8mb.git"
+  },
+  "author": "XTP3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XTP3/8mb/issues"
+  },
+  "homepage": "https://github.com/XTP3/8mb#readme",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
