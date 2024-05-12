@@ -56,7 +56,7 @@ async function run() {
     try {
         await compressVideo(inputVideoPath, outputVideoPath, 8);
         console.log('Video compressed successfully.');
-    } catch (error) {
+    }catch (error) {
         console.error('Failed to compress video:', error);
     }
 }
